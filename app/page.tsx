@@ -49,7 +49,7 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <img
                 className="h-8 w-8"
-                src="/images/cat-svgrepo-com.svg"
+                src="/Images/cat-svgrepo-com.svg"
                 alt="Cat Icon"
               />
               <span className="text-xs font-semibold text-deepgrape/60 tracking-wide">
