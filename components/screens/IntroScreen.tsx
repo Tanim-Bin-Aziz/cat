@@ -11,7 +11,7 @@ export default function IntroScreen({ onOpen }: { onOpen: () => void }) {
         style={{ animationDelay: "80ms" }}
       >
         <img
-          src="/images/pic3.gif"
+          src="/Images/pic3.gif"
           width={300}
           height={120}
           alt="Birthday Cake"
