@@ -15,7 +15,7 @@ export default function WishScreen({ onNext }: { onNext: () => void }) {
       >
         <div className="relative">
           <img
-            src="/images/hehe.png"
+            src="public/images/hehe.png"
             alt="Bunny"
             width={160}
             height={60}
