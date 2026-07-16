@@ -24,7 +24,7 @@ export default function GiftScreen({ onNext }: { onNext: () => void }) {
           >
             {/* Gift Box */}
             <img
-              src="/images/eat.jpg"
+              src="/Images/eat.jpg"
               alt="Gift"
               className="h-auto w-40 object-contain"
             />
