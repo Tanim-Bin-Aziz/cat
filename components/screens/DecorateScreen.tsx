@@ -51,7 +51,7 @@ export default function DecorateScreen({ onNext }: { onNext: () => void }) {
             <span className="text-6xl">🎉</span>
 
             <img
-              src="/images/chips.webp"
+              src="/Images/chips.webp"
               alt="Decorated Cake"
               width={200}
               height={80}
@@ -60,7 +60,7 @@ export default function DecorateScreen({ onNext }: { onNext: () => void }) {
           </div>
         ) : (
           <img
-            src="/images/cake.jpg"
+            src="/Images/cake.jpg"
             alt="Birthday Cake"
             width={280}
             height={180}
