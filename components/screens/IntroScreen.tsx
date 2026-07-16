@@ -10,12 +10,12 @@ export default function IntroScreen({ onOpen }: { onOpen: () => void }) {
         className="relative w-40 h-32 rounded-2xl glass-strong flex items-center justify-center animate-fadeInUp"
         style={{ animationDelay: "80ms" }}
       >
-        <Image
-          className="text-6xl"
+        <img
           src="/images/pic3.gif"
           width={300}
           height={120}
           alt="Birthday Cake"
+          className="h-auto w-[300px] object-contain"
         />
         <span className="absolute -top-3 -right-3 text-2xl animate-sparkle">
           ✨

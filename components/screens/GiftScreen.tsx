@@ -23,8 +23,11 @@ export default function GiftScreen({ onNext }: { onNext: () => void }) {
             style={{ animationDelay: "180ms" }}
           >
             {/* Gift Box */}
-            <Image src="/images/eat.jpg" alt="Gift" width={160} height={120} />
-
+            <img
+              src="/images/eat.jpg"
+              alt="Gift"
+              className="h-auto w-40 object-contain"
+            />
             <div className="space-y-1">
               <p className="font-display text-xl text-deepgrape">
                 A little note for you 🙀

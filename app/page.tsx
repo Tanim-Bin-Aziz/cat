@@ -9,7 +9,6 @@ import DecorateScreen from "@/components/screens/DecorateScreen";
 import WishScreen from "@/components/screens/WishScreen";
 import GiftScreen from "@/components/screens/GiftScreen";
 import FinalScreen from "@/components/screens/FinalScreen";
-import Image from "next/image";
 
 const TOTAL_STEPS = 5;
 const TRANSITION_MS = 260;
@@ -48,12 +47,10 @@ export default function Home() {
         <div className="glass-strong rounded-[2rem] p-5 sm:p-6 flex flex-col gap-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <Image
-                className="w-8 h-8"
+              <img
+                className="h-8 w-8"
                 src="/images/cat-svgrepo-com.svg"
                 alt="Cat Icon"
-                width={32}
-                height={32}
               />
               <span className="text-xs font-semibold text-deepgrape/60 tracking-wide">
                 Happy Birthday Mukta!

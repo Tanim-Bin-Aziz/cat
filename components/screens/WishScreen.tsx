@@ -14,12 +14,12 @@ export default function WishScreen({ onNext }: { onNext: () => void }) {
         style={{ animationDelay: "0ms" }}
       >
         <div className="relative">
-          <Image
-            className="text-5xl"
+          <img
             src="/images/hehe.png"
             alt="Bunny"
             width={160}
             height={60}
+            className="h-auto w-[160px] object-contain"
           />
         </div>
         <h2 className="font-display text-2xl sm:text-3xl font-semibold text-gradient leading-tight">

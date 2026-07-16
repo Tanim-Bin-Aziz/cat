@@ -46,19 +46,26 @@ export default function DecorateScreen({ onNext }: { onNext: () => void }) {
         {decorated ? (
           <div
             key="after"
-            className="flex flex-col items-center gap-2 animate-pop"
+            className="flex flex-col items-center gap-3 animate-pop"
           >
             <span className="text-6xl">🎉</span>
-            <Image
-              className="font-display text-xl text-deepgrape"
+
+            <img
               src="/images/chips.webp"
               alt="Decorated Cake"
               width={200}
               height={80}
+              className="h-auto w-[200px] object-contain"
             />
           </div>
         ) : (
-          <Image src="/images/cake.jpg" alt="Candle" width={280} height={80} />
+          <img
+            src="/images/cake.jpg"
+            alt="Birthday Cake"
+            width={280}
+            height={180}
+            className="h-auto w-[280px] object-contain rounded-2xl"
+          />
         )}
 
         <span className="absolute bottom-2 right-3 text-3xl transition-transform duration-500">

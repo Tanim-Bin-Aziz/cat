@@ -29,18 +29,16 @@ export default function CatProgress({
         {/* Animated Cat */}
         {/* Animated Cat */}
         <div
-          className="absolute -top-[82px] z-z0 pointer-events-none transition-[left] duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)]"
+          className="absolute -top-[82px] z-0 pointer-events-none transition-[left] duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)]"
           style={{
-            left: `calc(${pct}% - 120px)`,
+            left: `calc(${pct}% - 100px)`,
           }}
         >
-          <Image
+          <img
             src="/images/cat.gif"
             alt="Cute cat"
             width={150}
             height={150}
-            priority
-            unoptimized
             className="h-[150px] w-[150px] object-contain animate-pawStep drop-shadow-md"
           />
         </div>
