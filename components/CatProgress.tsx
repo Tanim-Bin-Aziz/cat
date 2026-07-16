@@ -35,7 +35,7 @@ export default function CatProgress({
           }}
         >
           <img
-            src="/images/cat.gif"
+            src="/Images/cat.gif"
             alt="Cute cat"
             width={150}
             height={150}
